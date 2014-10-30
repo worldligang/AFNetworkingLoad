@@ -35,14 +35,6 @@
     [super viewDidLoad];
     
     [self.progressView setProgress:0 animated:NO];
-//    //    初始化方法
-//    ZACalenderYearView *calendar=[[ZACalenderYearView alloc]initWithFrame:CGRectMake(0, 0, 320, 480) selectDate:nil
-//                                  ];
-//    [self.view addSubview:calendar];
-    
-
-    
-    
 
 
 }
