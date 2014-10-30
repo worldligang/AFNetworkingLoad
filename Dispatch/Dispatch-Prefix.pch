@@ -1,0 +1,22 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+//  Created by iOSDevTip on 14-10-20.
+//  Copyright (c) 2014年 http://iswifting.com All rights reserved.
+//
+
+// 微信公众账号：iOSDevTip
+// http://iswifting.com  swift学习社区
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
